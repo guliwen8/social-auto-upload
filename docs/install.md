@@ -14,7 +14,7 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/dreammis/social-auto-upload.git
+git clone https://github.com/guliwen8/social-auto-upload.git
 cd social-auto-upload
 ```
 
