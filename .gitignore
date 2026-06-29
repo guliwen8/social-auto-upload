@@ -182,6 +182,8 @@ package-lock.json
 
 # database
 db/database.db
+data/platform.db
+data/platform_api_key.txt
 
 # 临时文件夹
 cookiesFile
