@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SAU 平台控制台</title>
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        SAU Platform
+        <small>多人协作控制台（MVP）</small>
+      </div>
+      <nav class="nav" id="nav">
+        <a href="#/dashboard" data-route="/dashboard"><span>仪表盘</span><span class="desc">概览</span></a>
+        <a href="#/approvals" data-route="/approvals"><span>审批中心</span><span class="desc">待我/我提</span></a>
+        <a href="#/plans" data-route="/plans"><span>发布计划</span><span class="desc">列表/创建</span></a>
+        <a href="#/tasks" data-route="/tasks"><span>任务中心</span><span class="desc">执行/日志</span></a>
+        <a href="#/accounts" data-route="/accounts"><span>账号中心</span><span class="desc">健康检查</span></a>
+        <a href="#/content" data-route="/content"><span>素材与草稿</span><span class="desc">内容库</span></a>
+        <a href="#/settings" data-route="/settings"><span>设置</span><span class="desc">AI/Key</span></a>
+      </nav>
+    </aside>
+
+    <header class="topbar">
+      <span class="pill" id="envBadge">local</span>
+      <div class="toolbar" style="margin:0;">
+        <select id="workspaceSelectTop" style="width: 320px;"></select>
+        <input id="workspaceSearchTop" placeholder="搜索工作区" style="width: 220px;" />
+        <button class="secondary" id="switchWorkspaceTop">切换</button>
+      </div>
+      <div class="spacer"></div>
+      <span class="badge" id="actorBadge">未登录</span>
+      <button class="secondary" id="logoutTop">退出</button>
+    </header>
+
+    <main class="main">
+      <div id="app"></div>
+    </main>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script type="module" src="/assets/app.js"></script>
+</body>
+</html>

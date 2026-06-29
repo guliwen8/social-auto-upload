@@ -1,0 +1,20 @@
+export const BUTTON_TEXTS = {
+  refreshHome: '刷新首页',
+  login: '登录',
+  register: '注册',
+  createAsset: '创建素材',
+  createDraft: '创建草稿',
+  createPlan: '创建计划',
+  registerAccount: '注册账号',
+  submitApproval: '提交审批',
+  viewDetail: '查看详情',
+  viewPlan: '查看计划',
+  viewTask: '查看任务',
+  viewAccount: '查看账号',
+  viewDraft: '查看草稿',
+  viewExecutionRecords: '查看执行记录',
+  handleNow: '去处理',
+  createPlanFromDraft: '去创建计划',
+  createPlanFromSelectedDraft: '基于该草稿创建计划',
+  healthCheck: '健康检查'
+}
